@@ -49,7 +49,6 @@ import java.util.stream.Stream;
 @RequestMapping("/api/v1/devices")
 @EnableAutoConfiguration
 public class ExcelController {
-
     /**
      * 下载计划与实际产量分析模板
      * 生成Excel需要以行为单位，进行逐行生成。
